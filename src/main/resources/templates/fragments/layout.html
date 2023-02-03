@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>commerce</title>
+</head>
+<body>
+
+    <div th:fragment="framgment-body-menu">
+        <div>
+            <a href="/commerce/register">회원 가입</a>
+            |
+            <a href="/commerce/info">회원 정보</a>
+            |
+            <a href="/commerce/login">로그인</a>
+            |
+            <a href="/commerce/logout">로그아웃</a>
+            |
+            <a href="/basket/commerce/list.do">장바구니</a>
+            |
+            <a href="/order/commerce/list.do">상품검색</a>
+        </div>
+        <hr/>
+    </div>
+
+</body>
+</html>

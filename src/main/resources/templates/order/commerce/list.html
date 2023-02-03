@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>상품 검색 결과</title>
+    <style>
+        .list table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        .list table th, .list table td {
+            border: solid 1px #000;
+        }
+    </style>
+</head>
+<body>
+    <h1>상품 검색 결과</h1>
+    <div>
+        <input type="text" name="search" placeholder="상품명 입력" readonly/>
+        <button type="submit">검색</button>
+    </div>
+    <hr/>
+
+    <div class="list">
+        <table>
+            <thead>
+            <tr>
+                <th>
+                    상품아이디
+                </th>
+                <th>
+                    상품명
+                </th>
+                <th>
+                    상품가격
+                </th>
+                <th>
+                    카테고리
+                </th>
+                <th>
+                    제조일자
+                </th>
+                <th>
+                    소비기한
+                </th>
+            </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>상품아이디</td>
+                    <td>상품명</td>
+                    <td>상품가격</td>
+                    <td>카테고리</td>
+                    <td>제조일자</td>
+                    <td>소비기한</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    <a href="/">홈으로 가기</a>
+
+
+</body>
+</html>
